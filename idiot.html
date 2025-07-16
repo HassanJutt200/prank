@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Just a Question</title>
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      margin-top: 100px;
+    }
+    button {
+      padding: 15px 25px;
+      font-size: 18px;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Are you an IDIOT?</h1>
+  <button onclick="handleYes()">Yes</button>
+  <button onclick="handleNo()">No</button>
+
+  <script>
+    function handleYes() {
+      alert("Haha! I knew it! 😄");
+    }
+
+    function handleNo() {
+      location.reload(); // Refreshes the page
+    }
+  </script>
+</body>
+</html>
